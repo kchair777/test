@@ -40,9 +40,13 @@
 1.  
 1.  git init 하기전에 파일을 만든다. .gitignore
 1.  git init , git status 추적되지않는 리스트를확인하고 
-1.  git add . 
+1.  git add . 변경사항이 추적되기시작해서 초록색으로 보인다. 
+1.  git commit -m '프로젝트생성'
+1.  버전이 잘만들어졌는지확인하기 위하여 git log하면 (head->master)를확인하고 
 
+1.  git remote add origin https://github.com/kchair777/test.git 킷텁주소를 붙여넣는다. (origin별칭으로 remote의)
 
+1.  git push origin master (master->master를 확인한다. )
 
 
 
